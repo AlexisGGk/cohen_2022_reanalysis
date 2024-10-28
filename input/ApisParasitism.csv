@@ -1,0 +1,505 @@
+ID,IDNum,Site,Date,Genus,Species,Phorid,Crithidia,Apicystis,CBPV,DWV_KV_VDV,ABPV_KBV_IAPV,BQCV,SBPV,SBV,B-actin
+A222,222,Aptos,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A223,223,Aptos,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A224,224,Aptos,6/26/15,Apis,mellifera,0,1,1,,,,,,,
+A225,225,Aptos,6/26/15,Apis,mellifera,1,0,0,,,,,,,
+A226,226,Aptos,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A227,227,Aptos,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A228,228,Aptos,6/26/15,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A229,229,Aptos,6/26/15,Apis,mellifera,0,0,0,0,0,0,1,0,0,1
+A230,230,Aptos,6/26/15,Apis,mellifera,0,1,0,1,0,0,0,0,0,1
+A287,287,Aptos,07/01/2015,Apis,mellifera,0,1,0,,,,,,,
+A289,289,Aptos,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A290,290,Aptos,07/01/2015,Apis,mellifera,1,0,0,,,,,,,
+A291,291,Aptos,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A292,292,Aptos,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A293,293,Aptos,07/01/2015,Apis,mellifera,0,1,0,,,,,,,
+A294,294,Aptos,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A295,295,Aptos,07/01/2015,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A296,296,Aptos,07/01/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A405,405,Aptos,07/09/2015,Apis,mellifera,0,1,0,0,1,0,1,1,1,1
+A406,406,Aptos,07/09/2015,Apis,mellifera,0,0,0,0,0,1,1,1,1,1
+A407,407,Aptos,07/09/2015,Apis,mellifera,0,0,0,1,0,0,1,1,1,1
+A408,408,Aptos,07/09/2015,Apis,mellifera,0,0,1,0,1,0,0,1,1,1
+A409,409,Aptos,07/09/2015,Apis,mellifera,0,0,0,0,0,1,1,0,1,1
+A410,410,Aptos,07/09/2015,Apis,mellifera,0,0,1,,,,,,,
+A411,411,Aptos,07/09/2015,Apis,mellifera,0,1,0,,,,,,,
+A412,412,Aptos,07/09/2015,Apis,mellifera,0,0,1,1,0,0,0,1,0,1
+A413,413,Aptos,07/09/2015,Apis,mellifera,0,1,0,1,0,0,0,1,0,1
+A95,95,Beach,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A96,96,Beach,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A97,97,Beach,07/01/2015,Apis,mellifera,0,0,0,1,0,0,0,0,0,1
+A98,98,Beach,07/01/2015,Apis,mellifera,0,1,0,,,,,,,
+A99,99,Beach,07/01/2015,Apis,mellifera,0,1,1,,,,,,,
+A100,100,Beach,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A101,101,Beach,07/01/2015,Apis,mellifera,0,0,0,1,0,0,0,0,0,1
+A102,102,Beach,07/01/2015,Apis,mellifera,0,1,1,0,0,0,0,0,1,1
+A103,103,Beach,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A378,378,Beach,07/09/2015,Apis,mellifera,0,1,0,,,,,,,
+A379,379,Beach,07/09/2015,Apis,mellifera,0,0,0,0,0,0,0,1,1,1
+A380,380,Beach,07/09/2015,Apis,mellifera,0,1,0,1,1,1,0,1,0,1
+A381,381,Beach,07/09/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A382,382,Beach,07/09/2015,Apis,mellifera,0,1,0,1,0,1,0,1,1,1
+A383,383,Beach,07/09/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A384,384,Beach,07/09/2015,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A385,385,Beach,07/09/2015,Apis,mellifera,0,1,0,0,1,0,1,0,0,1
+A471,471,Beach,6/26/15,Apis,mellifera,0,0,0,,,,,,,
+A472,472,Beach,6/26/15,Apis,mellifera,1,0,0,1,0,0,1,0,1,1
+A473,473,Beach,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A474,474,Beach,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A475,475,Beach,6/26/15,Apis,mellifera,1,1,0,1,0,0,0,0,0,1
+A476,476,Beach,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A477,477,Beach,6/26/15,Apis,mellifera,0,0,0,,,,,,,
+A478,478,Beach,6/26/15,Apis,mellifera,0,1,0,0,0,1,0,0,0,1
+A493,493,Beach,6/26/15,Apis,mellifera,0,0,0,,,,,,,
+A494,494,Beach,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A495,495,Beach,6/26/15,Apis,mellifera,0,1,1,0,0,0,1,0,0,1
+A496,496,Beach,6/26/15,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A497,497,Beach,6/26/15,Apis,mellifera,0,1,0,,,,,,,
+A498,498,Beach,6/26/15,Apis,mellifera,0,0,1,,,,,,,
+A499,499,Beach,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A184,184,Berryessa,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A185,185,Berryessa,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A186,186,Berryessa,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A187,187,Berryessa,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A188,188,Berryessa,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A189,189,Berryessa,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A190,190,Berryessa,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A191,191,Berryessa,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A192,192,Berryessa,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A193,193,Berryessa,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A269,269,Berryessa,6/24/15,Apis,mellifera,0,1,1,0,0,1,0,0,0,1
+A270,270,Berryessa,6/24/15,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A271,271,Berryessa,6/24/15,Apis,mellifera,0,1,0,1,0,1,0,1,1,1
+A272,272,Berryessa,6/24/15,Apis,mellifera,0,0,1,0,0,0,0,1,1,1
+A273,273,Berryessa,6/24/15,Apis,mellifera,0,1,0,0,0,1,0,1,1,1
+A274,274,Berryessa,6/24/15,Apis,mellifera,0,1,0,0,1,1,0,1,1,1
+A275,275,Berryessa,6/24/15,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A276,276,Berryessa,6/24/15,Apis,mellifera,0,0,1,0,0,0,1,1,1,1
+A277,277,Berryessa,6/24/15,Apis,mellifera,0,1,1,1,0,0,1,1,0,1
+A414,414,Berryessa,07/07/2015,Apis,mellifera,0,1,1,,,,,,,
+A415,415,Berryessa,07/07/2015,Apis,mellifera,0,1,0,1,0,0,0,1,0,1
+A416,416,Berryessa,07/07/2015,Apis,mellifera,0,1,0,1,0,1,0,1,0,1
+A417,417,Berryessa,07/07/2015,Apis,mellifera,0,1,1,1,0,1,0,1,0,1
+A418,418,Berryessa,07/07/2015,Apis,mellifera,0,1,0,1,1,0,0,1,1,1
+A419,419,Berryessa,07/07/2015,Apis,mellifera,0,1,1,0,0,1,0,0,0,1
+A420,420,Berryessa,07/07/2015,Apis,mellifera,0,1,1,0,0,0,0,1,1,1
+A421,421,Berryessa,07/07/2015,Apis,mellifera,0,1,0,1,0,1,0,1,0,1
+A66,66,Chadwick,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A67,67,Chadwick,07/01/2015,Apis,mellifera,1,0,1,,,,,,,
+A68,68,Chadwick,07/01/2015,Apis,mellifera,1,0,1,,,,,,,
+A69,69,Chadwick,07/01/2015,Apis,mellifera,1,0,1,,,,,,,
+A70,70,Chadwick,07/01/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A71,71,Chadwick,07/01/2015,Apis,mellifera,1,0,1,,,,,,,
+A72,72,Chadwick,07/01/2015,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A73,73,Chadwick,07/01/2015,Apis,mellifera,1,0,1,0,0,0,1,0,1,1
+A74,74,Chadwick,07/01/2015,Apis,mellifera,1,0,1,,,,,,,
+A75,75,Chadwick,07/01/2015,Apis,mellifera,1,0,0,0,0,0,0,1,0,1
+A260,260,Chadwick,6/26/15,Apis,mellifera,1,1,1,0,0,1,1,1,1,1
+A261,261,Chadwick,6/26/15,Apis,mellifera,0,1,1,1,0,1,1,1,0,1
+A262,262,Chadwick,6/26/15,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A263,263,Chadwick,6/26/15,Apis,mellifera,0,1,1,1,1,1,,1,1,1
+A264,264,Chadwick,6/26/15,Apis,mellifera,0,1,1,0,0,1,0,1,1,1
+A265,265,Chadwick,6/26/15,Apis,mellifera,1,1,1,0,1,1,1,0,0,1
+A266,266,Chadwick,6/26/15,Apis,mellifera,0,1,0,1,0,1,1,1,0,1
+A267,267,Chadwick,6/26/15,Apis,mellifera,0,1,1,0,0,0,1,1,1,1
+A268,268,Chadwick,6/26/15,Apis,mellifera,0,0,0,,,,,,,
+A360,360,Chadwick,07/09/2015,Apis,mellifera,0,1,1,,,,,,,
+A361,361,Chadwick,07/09/2015,Apis,mellifera,0,1,1,,,,,,,
+A362,362,Chadwick,07/09/2015,Apis,mellifera,0,0,1,,,,,,,
+A363,363,Chadwick,07/09/2015,Apis,mellifera,0,1,1,0,0,0,0,1,0,1
+A364,364,Chadwick,07/09/2015,Apis,mellifera,0,1,1,0,0,0,0,0,0,1
+A365,365,Chadwick,07/09/2015,Apis,mellifera,1,0,1,0,0,0,0,0,0,1
+A366,366,Chadwick,07/09/2015,Apis,mellifera,0,0,1,,1,1,0,1,0,1
+A367,367,Chadwick,07/09/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A368,368,Chadwick,07/09/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A297,297,Chinatown,08/02/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A298,298,Chinatown,08/02/2015,Apis,mellifera,0,1,1,1,0,0,0,0,0,1
+A299,299,Chinatown,08/02/2015,Apis,mellifera,0,1,1,1,0,0,0,0,0,1
+A300,300,Chinatown,08/02/2015,Apis,mellifera,0,0,1,1,0,1,0,1,1,1
+A301,301,Chinatown,08/02/2015,Apis,mellifera,0,1,1,0,0,0,1,1,1,1
+A302,302,Chinatown,08/02/2015,Apis,mellifera,0,1,1,0,0,1,1,0,0,1
+A303,303,Chinatown,07/08/2015,Apis,mellifera,0,0,1,1,0,1,0,1,0,1
+A470,470,Chinatown,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A120,120,Control,,,,0,0,1,0,0,0,0,0,0,0
+A288,288,Control,,,,0,0,0,,,,,,,
+A432,432,Control,,Apis,mellifera,0,0,0,,,,,,,
+A479,479,Control,,Apis,mellifera,0,0,0,,,,,,,
+A480,480,Control,,Apis,mellifera,0,0,0,,,,,,,
+A155,155,Coyote,6/30/15,Apis,mellifera,0,1,1,0,0,0,0,0,0,1
+A156,156,Coyote,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A157,157,Coyote,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A158,158,Coyote,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A159,159,Coyote,6/30/15,Apis,mellifera,0,0,1,,,,,,,
+A160,160,Coyote,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A161,161,Coyote,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A162,162,Coyote,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A163,163,Coyote,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A174,174,Coyote,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A250,250,Coyote,6/24/15,Apis,mellifera,0,1,1,0,0,1,0,1,1,1
+A251,251,Coyote,6/24/15,Apis,mellifera,0,0,1,0,1,1,0,0,0,1
+A252,252,Coyote,6/24/15,Apis,mellifera,0,0,1,1,0,0,1,1,0,1
+A253,253,Coyote,6/24/15,Apis,mellifera,0,0,1,1,0,0,0,1,0,1
+A254,254,Coyote,6/24/15,Apis,mellifera,0,1,0,1,0,0,0,0,0,1
+A255,255,Coyote,6/24/15,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A256,256,Coyote,6/24/15,Apis,mellifera,0,1,1,0,0,1,0,1,1,1
+A257,257,Coyote,6/24/15,Apis,mellifera,0,1,1,0,0,1,1,1,1,1
+A258,258,Coyote,6/24/15,Apis,mellifera,0,0,1,1,0,1,0,1,0,1
+A259,259,Coyote,6/24/15,Apis,mellifera,0,0,0,0,1,1,0,0,1,1
+A450,450,Coyote,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A451,451,Coyote,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A452,452,Coyote,07/07/2015,Apis,mellifera,0,1,0,1,0,0,0,0,0,1
+A453,453,Coyote,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A454,454,Coyote,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A455,455,Coyote,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,0,0,1
+A456,456,Coyote,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A457,457,Coyote,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A486,486,Coyote,07/07/2015,Apis,mellifera,0,0,1,0,0,1,0,0,0,1
+A487,487,Coyote,07/07/2015,Apis,mellifera,0,1,1,1,0,0,0,1,0,1
+A488,488,Coyote,07/07/2015,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A489,489,Coyote,07/07/2015,Apis,mellifera,0,0,1,0,0,1,0,0,0,1
+A490,490,Coyote,07/07/2015,Apis,mellifera,0,0,1,,,,,,,
+A491,491,Coyote,07/07/2015,Apis,mellifera,0,1,1,,,,,,,
+A492,492,Coyote,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A502,502,Coyote,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A503,503,Coyote,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A504,504,Coyote,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A76,76,Farm,6/26/15,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A77,77,Farm,6/26/15,Apis,mellifera,1,0,1,0,0,0,1,0,0,1
+A78,78,Farm,6/26/15,Apis,mellifera,1,0,0,,,,,,,
+A79,79,Farm,6/26/15,Apis,mellifera,1,0,1,,,,,,,
+A80,80,Farm,6/26/15,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A81,81,Farm,6/26/15,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A82,82,Farm,6/26/15,Apis,mellifera,1,1,0,0,0,0,0,0,0,1
+A83,83,Farm,6/26/15,Apis,mellifera,0,0,0,,,,,,,
+A84,84,Farm,6/26/15,Apis,mellifera,0,0,0,,,,,,,
+A85,85,Farm,6/26/15,Apis,mellifera,0,0,0,0,0,0,1,0,0,1
+A86,86,Farm,07/01/2015,Apis,mellifera,0,0,1,0,0,1,0,0,1,1
+A87,87,Farm,07/01/2015,Apis,mellifera,0,1,0,0,,,,,,
+A88,88,Farm,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A89,89,Farm,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A90,90,Farm,07/01/2015,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A91,91,Farm,07/01/2015,Apis,mellifera,1,1,0,,,,,,,
+A92,92,Farm,07/01/2015,Apis,mellifera,0,0,0,0,0,1,0,0,0,1
+A93,93,Farm,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A94,94,Farm,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A396,396,Farm,07/09/2015,Apis,mellifera,0,1,1,1,0,1,0,0,0,1
+A397,397,Farm,07/09/2015,Apis,mellifera,1,1,1,,,,,1,,
+A398,398,Farm,07/09/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A399,399,Farm,07/09/2015,Apis,mellifera,0,1,1,0,0,0,0,0,1,1
+A400,400,Farm,07/09/2015,Apis,mellifera,1,0,0,0,0,0,0,1,1,1
+A401,401,Farm,07/09/2015,Apis,mellifera,0,1,0,1,0,0,0,0,0,1
+A402,402,Farm,07/09/2015,Apis,mellifera,0,1,0,0,0,1,0,1,0,1
+A403,403,Farm,07/09/2015,Apis,mellifera,0,0,1,1,1,1,1,1,1,1
+A404,404,Farm,07/09/2015,Apis,mellifera,0,1,0,1,1,0,1,0,1,1
+A124,124,Forge,6/30/15,Apis,mellifera,0,1,0,1,0,1,0,0,0,1
+A125,125,Forge,6/30/15,Apis,mellifera,0,1,1,1,0,0,0,0,0,1
+A126,126,Forge,6/30/15,Apis,mellifera,0,0,0,0,1,0,1,0,1,1
+A127,127,Forge,6/30/15,Apis,mellifera,0,0,0,1,0,0,0,0,0,1
+A128,128,Forge,6/30/15,Apis,mellifera,0,1,1,1,0,1,0,1,0,1
+A129,129,Forge,6/30/15,Apis,mellifera,0,0,1,1,0,0,0,0,0,1
+A130,130,Forge,6/30/15,Apis,mellifera,0,0,1,,,,,,,
+A131,131,Forge,6/30/15,Apis,mellifera,0,1,0,0,0,0,1,0,1,1
+A132,132,Forge,6/30/15,Apis,mellifera,0,0,1,1,0,1,1,0,1,1
+A204,204,Forge,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A205,205,Forge,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A206,206,Forge,6/24/15,Apis,mellifera,0,0,1,,,,,,,
+A207,207,Forge,6/24/15,Apis,mellifera,0,0,1,,,,,,,
+A208,208,Forge,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A209,209,Forge,6/24/15,Apis,mellifera,0,0,1,,,,,,,
+A210,210,Forge,6/24/15,Apis,mellifera,0,0,1,,,,,,,
+A211,211,Forge,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A212,212,Forge,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A422,422,Forge,07/07/2015,Apis,mellifera,0,1,1,1,0,0,0,1,0,1
+A423,423,Forge,07/07/2015,Apis,mellifera,0,1,1,1,1,0,0,1,1,1
+A424,424,Forge,07/07/2015,Apis,mellifera,0,0,1,1,0,0,1,0,1,1
+A425,425,Forge,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A426,426,Forge,07/07/2015,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A427,427,Forge,07/07/2015,Apis,mellifera,0,0,1,1,0,0,0,1,0,1
+A428,428,Forge,07/07/2015,Apis,mellifera,0,0,1,1,0,0,0,1,0,1
+A429,429,Forge,07/07/2015,Apis,mellifera,0,1,1,1,0,0,1,0,1,1
+A430,430,Forge,07/07/2015,Apis,mellifera,0,1,1,1,0,1,0,1,0,1
+A501,501,Forge,6/30/15,Apis,mellifera,0,0,0,0,0,1,0,1,1,1
+A231,231,Grange,6/26/15,Apis,mellifera,1,1,0,0,0,0,0,1,0,1
+A232,232,Grange,6/26/15,Apis,mellifera,0,1,1,0,0,1,0,1,1,1
+A233,233,Grange,6/26/15,Apis,mellifera,0,1,0,1,0,1,1,1,0,1
+A234,234,Grange,6/26/15,Apis,mellifera,0,1,1,1,0,0,1,0,0,1
+A235,235,Grange,6/26/15,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A236,236,Grange,6/26/15,Apis,mellifera,0,1,0,0,0,1,1,1,0,1
+A237,237,Grange,6/26/15,Apis,mellifera,1,0,0,0,0,1,0,1,1,1
+A238,238,Grange,6/26/15,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A239,239,Grange,6/26/15,Apis,mellifera,0,0,0,1,0,1,0,1,1,1
+A240,240,Grange,6/26/15,Apis,mellifera,0,0,1,1,0,1,0,1,1,1
+A313,313,Grange,07/01/2015,Apis,mellifera,0,0,0,,,,,,,
+A314,314,Grange,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A315,315,Grange,07/01/2015,Apis,mellifera,0,0,1,0,0,0,0,1,0,1
+A316,316,Grange,07/01/2015,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A317,317,Grange,07/01/2015,Apis,mellifera,0,0,0,0,0,1,0,1,0,1
+A318,318,Grange,07/01/2015,Apis,mellifera,0,0,0,0,0,0,0,1,1,1
+A319,319,Grange,07/01/2015,Apis,mellifera,0,0,1,0,0,0,0,1,0,1
+A320,320,Grange,07/01/2015,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A321,321,Grange,07/01/2015,Apis,mellifera,1,0,0,0,0,0,0,1,1,1
+A369,369,Grange,07/09/2015,Apis,mellifera,0,0,0,0,0,0,0,0,1,1
+A370,370,Grange,07/09/2015,Apis,mellifera,0,0,0,,,,,,,
+A371,371,Grange,07/09/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A372,372,Grange,07/09/2015,Apis,mellifera,0,1,0,0,0,0,0,1,1,1
+A373,373,Grange,07/09/2015,Apis,mellifera,0,0,1,1,0,1,0,1,1,1
+A374,374,Grange,07/09/2015,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A375,375,Grange,07/09/2015,Apis,mellifera,0,1,0,1,0,0,0,1,1,1
+A376,376,Grange,07/09/2015,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A377,377,Grange,07/09/2015,Apis,mellifera,0,0,1,1,0,0,0,1,0,1
+A500,500,Grange,07/09/2015,Apis,mellifera,0,1,0,0,0,1,1,0,1,1
+A104,104,Homeless,07/01/2015,Apis,mellifera,0,1,1,,,,,,,
+A105,105,Homeless,07/01/2015,Apis,mellifera,0,0,1,1,0,1,0,0,0,1
+A106,106,Homeless,07/01/2015,Apis,mellifera,0,0,1,0,0,0,0,0,1,1
+A107,107,Homeless,07/01/2015,Apis,mellifera,0,0,1,,,,,,,
+A108,108,Homeless,07/01/2015,Apis,mellifera,0,0,1,0,0,0,0,0,1,1
+A109,109,Homeless,07/01/2015,Apis,mellifera,1,0,1,0,0,0,0,0,0,1
+A110,110,Homeless,07/01/2015,Apis,mellifera,0,0,1,1,0,1,0,1,0,1
+A111,111,Homeless,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A112,112,Homeless,6/30/15,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A113,113,Homeless,6/30/15,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A135,135,Homeless,6/26/15,Apis,mellifera,0,0,1,0,0,1,0,1,1,1
+A137,137,Homeless,6/26/15,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A139,139,Homeless,6/26/15,Apis,mellifera,0,1,0,0,0,0,0,1,1,1
+A140,140,Homeless,6/26/15,Apis,mellifera,0,0,1,1,0,1,1,0,1,1
+A141,141,Homeless,6/26/15,Apis,mellifera,0,1,0,1,0,1,0,0,1,1
+A142,142,Homeless,6/26/15,Apis,mellifera,0,0,0,0,0,0,0,1,1,1
+A143,143,Homeless,6/26/15,Apis,mellifera,1,0,0,0,0,1,0,1,1,1
+A144,144,Homeless,6/26/15,Apis,mellifera,0,0,0,0,0,0,1,0,0,1
+A145,145,Homeless,6/26/15,Apis,mellifera,1,0,0,0,0,1,1,0,0,1
+A386,386,Homeless,07/09/2015,Apis,mellifera,0,1,0,0,0,0,0,1,0,1
+A387,387,Homeless,07/09/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A388,388,Homeless,07/09/2015,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A389,389,Homeless,07/09/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A390,390,Homeless,07/09/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A391,391,Homeless,07/09/2015,Apis,mellifera,0,1,1,0,0,0,0,0,0,1
+A392,392,Homeless,07/09/2015,Apis,mellifera,1,1,1,0,0,0,0,1,0,1
+A393,393,Homeless,07/09/2015,Apis,mellifera,0,0,1,0,1,0,1,0,0,1
+A394,394,Homeless,07/09/2015,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A395,395,Homeless,07/09/2015,Apis,mellifera,0,0,1,0,0,0,0,1,1,1
+A114,114,La Colina,6/30/15,Apis,mellifera,0,0,1,1,0,0,1,0,0,1
+A115,115,La Colina,6/30/15,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A116,116,La Colina,6/30/15,Apis,mellifera,0,0,0,1,0,0,0,0,0,1
+A117,117,La Colina,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A118,118,La Colina,6/30/15,Apis,mellifera,0,1,1,1,0,1,0,0,1,1
+A119,119,La Colina,6/30/15,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A121,121,La Colina,6/30/15,Apis,mellifera,1,1,0,0,1,0,0,0,0,1
+A122,122,La Colina,6/30/15,Apis,mellifera,0,1,0,1,0,1,1,0,0,1
+A123,123,La Colina,6/30/15,Apis,mellifera,0,1,0,,,,,,,
+A213,213,La Colina,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A214,214,La Colina,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A215,215,La Colina,6/24/15,Apis,mellifera,1,1,0,,,,,,,
+A216,216,La Colina,6/24/15,Apis,mellifera,0,1,1,,,,,,,
+A217,217,La Colina,6/24/15,Apis,mellifera,0,0,1,,,,,,,
+A218,218,La Colina,6/24/15,Apis,mellifera,0,0,0,,,,,,,
+A219,219,La Colina,6/24/15,Apis,mellifera,1,1,0,,,,,,,
+A220,220,La Colina,6/24/15,Apis,mellifera,1,0,0,,,,,,,
+A221,221,La Colina,6/24/15,Apis,mellifera,0,0,0,,,,,,,
+A441,441,La Colina,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A442,442,La Colina,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A443,443,La Colina,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A444,444,La Colina,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A445,445,La Colina,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A446,446,La Colina,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A447,447,La Colina,07/07/2015,Apis,mellifera,0,1,0,1,0,1,0,0,1,1
+A448,448,La Colina,07/07/2015,Apis,mellifera,0,1,0,1,0,0,0,0,0,1
+A449,449,La Colina,07/07/2015,Apis,mellifera,0,0,0,1,0,1,1,0,0,1
+A481,481,La Colina,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A482,482,La Colina,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A483,483,La Colina,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A484,484,La Colina,07/07/2015,Apis,mellifera,0,0,0,0,0,1,0,0,0,1
+A485,485,La Colina,07/07/2015,Apis,mellifera,0,1,1,,,,,,,
+A29,29,Laguna ,6/24/15,Apis,mellifera,0,0,0,,,,,,,
+A30,30,Laguna ,6/24/15,Apis,mellifera,0,0,0,0,0,0,1,1,0,1
+A31,31,Laguna ,6/24/15,Apis,mellifera,0,0,1,,,,,,,
+A32,32,Laguna ,6/24/15,Apis,mellifera,0,0,1,1,0,1,1,1,0,1
+A33,33,Laguna ,6/24/15,Apis,mellifera,0,0,1,0,0,1,1,1,1,1
+A34,34,Laguna ,6/24/15,Apis,mellifera,0,0,1,0,0,0,1,0,1,1
+A35,35,Laguna ,6/24/15,Apis,mellifera,0,0,0,1,0,1,1,1,1,1
+A36,36,Laguna ,6/24/15,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A37,37,Laguna ,6/24/15,Apis,mellifera,0,1,0,,,,,,,
+A194,194,Laguna ,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A195,195,Laguna ,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A196,196,Laguna ,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A197,197,Laguna ,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A198,198,Laguna ,6/30/15,Apis,mellifera,0,0,1,,,,,,,
+A199,199,Laguna ,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A200,200,Laguna ,6/30/15,Apis,mellifera,0,0,1,,,,,,,
+A201,201,Laguna ,6/30/15,Apis,mellifera,0,1,1,,,,,,,
+A202,202,Laguna ,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A203,203,Laguna ,6/30/15,Apis,mellifera,0,0,0,,,,,,,
+A431,431,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,0,0,1
+A433,433,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A434,434,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A435,435,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A436,436,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,1,0,1,1,1
+A437,437,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A438,438,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A439,439,Laguna ,07/07/2015,Apis,mellifera,0,1,0,1,0,0,0,1,0,1
+A440,440,Laguna ,07/07/2015,Apis,mellifera,0,0,0,1,0,0,1,0,1,1
+A20,20,Mearth,6/25/15,Apis,mellifera,0,1,0,0,1,0,1,1,0,1
+A21,21,Mearth,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A22,22,Mearth,6/25/15,Apis,mellifera,0,0,0,1,0,1,0,0,0,1
+A23,23,Mearth,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A24,24,Mearth,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A25,25,Mearth,6/25/15,Apis,mellifera,0,1,0,1,0,1,1,1,0,1
+A26,26,Mearth,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A27,27,Mearth,6/25/15,Apis,mellifera,0,0,0,0,1,0,1,0,1,1
+A28,28,Mearth,6/25/15,Apis,mellifera,0,1,0,1,1,0,1,1,0,1
+A57,57,Mearth,6/29/15,Apis,mellifera,1,0,0,0,0,0,0,0,0,1
+A58,58,Mearth,6/29/15,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A59,59,Mearth,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A60,60,Mearth,6/29/15,Apis,mellifera,0,0,0,0,0,0,1,0,0,1
+A61,61,Mearth,6/29/15,Apis,mellifera,1,0,0,0,1,1,1,0,1,1
+A62,62,Mearth,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A63,63,Mearth,6/29/15,Apis,mellifera,1,0,0,0,0,0,0,0,0,1
+A64,64,Mearth,6/29/15,Apis,mellifera,0,0,1,0,0,0,0,1,1,1
+A65,65,Mearth,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A322,322,Mearth,07/08/2015,Apis,mellifera,0,0,1,0,0,0,0,1,1,1
+A323,323,Mearth,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A324,324,Mearth,07/08/2015,Apis,mellifera,0,0,1,0,0,1,0,1,0,1
+A325,325,Mearth,07/08/2015,Apis,mellifera,1,0,0,0,0,0,0,1,0,1
+A326,326,Mearth,07/08/2015,Apis,mellifera,1,0,1,0,0,0,0,1,0,1
+A327,327,Mearth,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,1,1,1
+A328,328,Mearth,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A329,329,Mearth,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A330,330,Mearth,07/08/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A331,331,Mearth,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,1,0,1
+A47,47,MIIS,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A48,48,MIIS,6/29/15,Apis,mellifera,0,1,0,0,0,0,1,0,0,1
+A49,49,MIIS,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A50,50,MIIS,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A51,51,MIIS,6/29/15,Apis,mellifera,1,0,0,0,0,0,0,0,0,1
+A52,52,MIIS,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A53,53,MIIS,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A54,54,MIIS,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A55,55,MIIS,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A56,56,MIIS,6/29/15,Apis,mellifera,1,0,0,,,,,,,
+A146,146,MIIS,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A147,147,MIIS,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A148,148,MIIS,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A149,149,MIIS,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A150,150,MIIS,6/25/15,Apis,mellifera,1,0,1,,,,,,,
+A151,151,MIIS,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A152,152,MIIS,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A153,153,MIIS,6/25/15,Apis,mellifera,1,0,0,0,0,0,0,0,0,1
+A154,154,MIIS,6/25/15,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A304,304,MIIS,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,1,1,1
+A305,305,MIIS,07/08/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A306,306,MIIS,07/08/2015,Apis,mellifera,0,1,0,1,0,1,0,1,0,1
+A307,307,MIIS,07/08/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A308,308,MIIS,07/08/2015,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A309,309,MIIS,07/08/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A310,310,MIIS,07/08/2015,Apis,mellifera,0,1,1,1,0,0,0,1,0,1
+A311,311,MIIS,07/08/2015,Apis,mellifera,0,0,0,0,0,1,1,1,1,1
+A312,312,MIIS,07/08/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A133,133,Prusch,6/30/15,Apis,mellifera,0,1,0,0,0,1,0,1,0,1
+A134,134,Prusch,6/30/15,Apis,mellifera,0,0,0,0,0,1,0,1,0,1
+A136,136,Prusch,6/30/15,Apis,mellifera,0,1,0,1,0,1,0,1,1,1
+A138,138,Prusch,6/30/15,Apis,mellifera,0,1,1,1,0,1,0,1,1,1
+A241,241,Prusch,6/24/15,Apis,mellifera,0,0,0,0,1,1,0,0,0,1
+A242,242,Prusch,6/24/15,Apis,mellifera,0,0,1,0,0,0,1,0,0,1
+A243,243,Prusch,6/24/15,Apis,mellifera,0,1,0,1,0,1,1,1,0,1
+A244,244,Prusch,6/24/15,Apis,mellifera,0,0,0,0,0,0,1,1,1,1
+A245,245,Prusch,6/24/15,Apis,mellifera,0,0,1,1,0,0,1,1,1,1
+A246,246,Prusch,6/24/15,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A247,247,Prusch,6/24/15,Apis,mellifera,0,1,0,1,0,1,0,1,1,1
+A248,248,Prusch,6/24/15,Apis,mellifera,0,1,1,0,0,0,0,1,1,1
+A249,249,Prusch,6/24/15,Apis,mellifera,0,1,0,0,0,1,0,1,1,1
+A458,458,Prusch,07/07/2015,Apis,mellifera,0,1,0,1,0,0,0,0,0,1
+A459,459,Prusch,07/07/2015,Apis,mellifera,0,0,0,1,0,0,1,0,0,1
+A460,460,Prusch,07/07/2015,Apis,mellifera,0,0,0,1,0,1,1,0,0,1
+A461,461,Prusch,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A462,462,Prusch,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A463,463,Prusch,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A464,464,Prusch,07/07/2015,Apis,mellifera,0,0,0,,,,,,,
+A465,465,Prusch,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,0,0,1
+A466,466,Prusch,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A467,467,Prusch,07/07/2015,Apis,mellifera,0,0,0,1,0,0,0,0,0,1
+A468,468,Prusch,07/07/2015,Apis,mellifera,0,1,0,1,0,1,0,0,1,1
+A469,469,Prusch,07/07/2015,Apis,mellifera,0,1,0,,,,,,,
+A175,175,Salinas,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A176,176,Salinas,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A177,177,Salinas,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A178,178,Salinas,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A179,179,Salinas,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A180,180,Salinas,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A181,181,Salinas,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A182,182,Salinas,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A183,183,Salinas,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A278,278,Salinas,6/29/15,Apis,mellifera,1,1,1,,,,,,,
+A279,279,Salinas,6/29/15,Apis,mellifera,0,1,0,,,,,,,
+A280,280,Salinas,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A281,281,Salinas,6/29/15,Apis,mellifera,0,0,1,,,,,,,
+A282,282,Salinas,6/29/15,Apis,mellifera,0,1,0,,,,,,,
+A283,283,Salinas,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A284,284,Salinas,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A285,285,Salinas,6/29/15,Apis,mellifera,0,1,1,,,,,,,
+A286,286,Salinas,6/29/15,Apis,mellifera,0,1,1,,,,,,,
+A341,341,Salinas,07/08/2015,Apis,mellifera,0,0,1,0,0,0,0,1,1,1
+A342,342,Salinas,07/08/2015,Apis,mellifera,0,0,0,1,0,1,0,1,0,1
+A343,343,Salinas,07/08/2015,Apis,mellifera,0,0,1,0,0,1,0,1,0,1
+A344,344,Salinas,07/08/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A345,345,Salinas,07/08/2015,Apis,mellifera,0,0,1,1,0,0,0,1,1,1
+A346,346,Salinas,07/08/2015,Apis,mellifera,0,0,0,0,0,1,0,0,0,1
+A347,347,Salinas,07/08/2015,Apis,mellifera,0,1,1,0,0,0,0,1,0,1
+A348,348,Salinas,07/08/2015,Apis,mellifera,0,0,1,0,0,1,0,1,0,1
+A349,349,Salinas,07/08/2015,Apis,mellifera,0,0,1,0,0,0,0,1,1,1
+A350,350,Salinas,07/08/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A38,38,Seaside,6/29/15,Apis,mellifera,0,1,0,1,0,0,0,1,0,1
+A39,39,Seaside,6/29/15,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A40,40,Seaside,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A41,41,Seaside,6/29/15,Apis,mellifera,0,0,0,1,1,0,0,0,0,1
+A42,42,Seaside,6/29/15,Apis,mellifera,1,0,0,1,0,0,1,0,1,1
+A43,43,Seaside,6/29/15,Apis,mellifera,0,0,0,1,0,1,0,0,0,1
+A44,44,Seaside,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A45,45,Seaside,6/29/15,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A46,46,Seaside,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A164,164,Seaside,6/25/15,Apis,mellifera,0,1,1,,,,,,,
+A165,165,Seaside,6/25/15,Apis,mellifera,0,0,1,,,,,,,
+A166,166,Seaside,6/25/15,Apis,mellifera,0,1,1,,,,,,,
+A167,167,Seaside,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A168,168,Seaside,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A169,169,Seaside,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A170,170,Seaside,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A171,171,Seaside,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A172,172,Seaside,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A173,173,Seaside,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A332,332,Seaside,07/08/2015,Apis,mellifera,1,1,0,0,0,0,0,1,1,1
+A333,333,Seaside,07/08/2015,Apis,mellifera,0,1,1,1,0,0,0,1,0,1
+A334,334,Seaside,07/08/2015,Apis,mellifera,0,1,1,1,1,0,0,1,1,1
+A335,335,Seaside,07/08/2015,Apis,mellifera,0,1,0,0,0,0,0,1,0,1
+A336,336,Seaside,07/08/2015,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A337,337,Seaside,07/08/2015,Apis,mellifera,0,1,1,1,0,0,0,1,1,1
+A338,338,Seaside,07/08/2015,Apis,mellifera,0,1,0,,,,,,,
+A339,339,Seaside,07/08/2015,Apis,mellifera,0,0,0,1,0,0,0,1,1,1
+A340,340,Seaside,07/08/2015,Apis,mellifera,0,1,0,0,0,0,0,0,0,1
+A1,1,Watsonville,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A2,2,Watsonville,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A3,3,Watsonville,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A4,4,Watsonville,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A5,5,Watsonville,6/25/15,Apis,mellifera,0,1,0,,,,,,,
+A6,6,Watsonville,6/25/15,Apis,mellifera,0,1,0,1,1,0,0,0,0,1
+A7,7,Watsonville,6/25/15,Apis,mellifera,0,0,0,1,0,0,0,1,0,1
+A8,8,Watsonville,6/25/15,Apis,mellifera,0,0,0,,,,,,,
+A9,9,Watsonville,6/25/15,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A10,10,Watsonville,6/29/15,Apis,mellifera,0,1,0,1,1,1,1,1,1,1
+A11,11,Watsonville,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A12,12,Watsonville,6/29/15,Apis,mellifera,0,1,1,,,,,,,
+A13,13,Watsonville,6/29/15,Apis,mellifera,0,1,1,1,1,0,0,1,1,1
+A14,14,Watsonville,6/29/15,Apis,mellifera,0,1,1,1,1,0,0,0,0,0
+A15,15,Watsonville,6/29/15,Apis,mellifera,0,1,1,1,1,1,0,1,1,1
+A16,16,Watsonville,6/29/15,Apis,mellifera,0,0,1,,,,,,,
+A17,17,Watsonville,6/29/15,Apis,mellifera,0,0,0,1,0,1,0,0,0,0
+A18,18,Watsonville,6/29/15,Apis,mellifera,0,1,0,,,,,,,
+A19,19,Watsonville,6/29/15,Apis,mellifera,0,0,0,,,,,,,
+A351,351,Watsonville,07/08/2015,Apis,mellifera,0,1,0,0,0,0,0,1,0,1
+A352,352,Watsonville,07/08/2015,Apis,mellifera,0,1,1,0,0,0,0,1,0,1
+A353,353,Watsonville,07/08/2015,Apis,mellifera,0,1,0,0,0,0,0,1,0,1
+A354,354,Watsonville,07/08/2015,Apis,mellifera,0,0,0,0,0,0,0,0,0,1
+A355,355,Watsonville,07/08/2015,Apis,mellifera,0,0,1,,,,,,,
+A356,356,Watsonville,07/08/2015,Apis,mellifera,0,1,0,,,,,,,1
+A357,357,Watsonville,07/08/2015,Apis,mellifera,0,0,0,,,,,1,1,
+A358,358,Watsonville,07/08/2015,Apis,mellifera,0,0,1,0,0,0,0,0,0,1
+A359,359,Watsonville,07/08/2015,Apis,mellifera,0,1,1,0,1,1,0,1,0,1
