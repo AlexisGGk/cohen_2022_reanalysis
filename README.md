@@ -1,6 +1,6 @@
 This code is part of a reanalysis of figure one of Cohen et al 2022 (1). 
 
-The "data" folder entails the raw data extracted from the paper as well as the collated dataset I produced manually. 
+The "input" folder entails the raw data extracted from the paper as well as the collated dataset I produced manually. 
 
 The "results" folder contains the code used to analyse the collated data as well as the resulting figures. All analysis were conducted in Rstudio and relevant packages are credited in the report. 
 
