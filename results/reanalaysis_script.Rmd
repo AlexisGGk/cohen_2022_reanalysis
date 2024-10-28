@@ -1,0 +1,448 @@
+---
+title: "reanalysis_script"
+author: "Alexis"
+date: "2024-10-28"
+output: html_notebook
+---
+
+
+
+```{r setup}
+
+# loads required packages 
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(patchwork)
+
+# loads dataset into R 
+combined_dataset_raw <- read.csv("~/downloads/combined_apis_bombus.csv")
+
+# checks structure of dataset 
+str(combined_dataset_raw)
+
+# displays top of dataset
+head(combined_dataset_raw)
+
+# since there are NAs in our data we will subgroup the viral work to avoid having to remove the entire row
+
+bombus <- (combined_dataset_raw)
+
+# Subset for rows where species is "bombus"
+bombus_data <- subset(combined_dataset_raw, Species == "bombus")
+
+# Subset for rows where species is "mellifera"
+mellifera_data <- subset(combined_dataset_raw, Species == "mellifera")
+
+```
+
+```{r data structure}
+
+# Find unique values in the 'site' column
+table(mellifera_data$Site)
+
+table(bombus_data$Site)
+
+
+# Add a new column to each subset to label them by species
+mellifera_data$Species <- "mellifera"
+bombus_data$Species <- "bombus"
+
+# Combine the two datasets
+combined_data <- rbind(mellifera_data, bombus_data)
+
+# Count occurrences by Site and Species
+site_counts <- as.data.frame(table(combined_data$Site, combined_data$Species))
+colnames(site_counts) <- c("Site", "Species", "Count")
+
+# Create a bar plot with conditional transparency for missing species
+plot_1_number_per_site <- ggplot(site_counts, aes(x = Site, y = Count, fill = Species)) +
+  geom_bar(stat = "identity", position = "dodge",
+           aes(alpha = ifelse(Count == 0, 0, 1))) +
+  labs(title = "Counts of Each Site by Species",
+       x = "Site",
+       y = "Count") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+    panel.background = element_rect(fill = "white", color = NA),  # Set panel background to white
+    plot.background = element_rect(fill = "white", color = NA)    # Set overall plot background to white
+  ) +
+  scale_alpha_identity()
+
+ggsave(filename = "plot_1_number_per_site.png", plot = plot_1_number_per_site)
+
+```
+
+
+
+```{r analysis parasites}
+
+## for Phorid 
+# Filter for bombus species, group by Site and Phorid, and count occurrences of 0s and 1s
+bombus_phorid_counts <- combined_dataset_raw %>%
+  filter(Species == "bombus") %>%
+  group_by(Site, Phorid) %>%
+  summarise(Count = n()) %>%
+  pivot_wider(names_from = Phorid, values_from = Count, values_fill = 0)  # Fill missing counts with 0
+
+# Rename columns for clarity (0s and 1s count)
+colnames(bombus_phorid_counts)[2:3] <- c("Count_0", "Count_1")
+
+# Display the result
+bombus_phorid_counts
+
+# Calculate the percentage of 1s in the Phorid column
+bombus_phorid_counts <- bombus_phorid_counts %>%
+  mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+# Display the updated data with percentage
+bombus_phorid_counts
+
+
+## for Crithidia 
+# Filter for bombus species, group by Site and Crithidia, and count occurrences of 0s and 1s
+bombus_crithidia_counts <- combined_dataset_raw %>%
+  filter(Species == "bombus") %>%
+  group_by(Site, Crithidia) %>%
+  summarise(Count = n()) %>%
+  pivot_wider(names_from = Crithidia, values_from = Count, values_fill = 0)  # Fill missing counts with 0
+
+# Rename columns for clarity (0s and 1s count)
+colnames(bombus_crithidia_counts)[2:3] <- c("Count_0", "Count_1")
+
+# Display the result
+bombus_crithidia_counts
+
+# Calculate the percentage of 1s in the Phorid column
+bombus_crithidia_counts <- bombus_crithidia_counts %>%
+  mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+# Display the updated data with percentage
+bombus_crithidia_counts
+
+
+## For Apicystis 
+# Filter for bombus species, group by Site and Apicystis, and count occurrences of 0s and 1s
+bombus_Apicystis_counts <- combined_dataset_raw %>%
+  filter(Species == "bombus") %>%
+  group_by(Site, Apicystis) %>%
+  summarise(Count = n()) %>%
+  pivot_wider(names_from = Apicystis, values_from = Count, values_fill = 0)  # Fill missing counts with 0
+
+# Rename columns for clarity (0s and 1s count)
+colnames(bombus_Apicystis_counts)[2:3] <- c("Count_0", "Count_1")
+
+# Display the result
+bombus_Apicystis_counts
+
+# Calculate the percentage of 1s in the Phorid column
+bombus_Apicystis_counts <- bombus_Apicystis_counts %>%
+  mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+# Display the updated data with percentage
+bombus_Apicystis_counts
+
+
+
+bombus_apicystis_counts_for_collation <- bombus_Apicystis_counts$Percentage_1
+bombus_crithidia_counts_for_collation <- bombus_crithidia_counts$Percentage_1
+bombus_phorid_counts_for_collation <- bombus_phorid_counts$Percentage_1
+
+
+
+# Combine the data for each parasite type into a single data frame for plotting
+combined_percentages_for_plot <- data.frame(
+  Site = rep(bombus_phorid_counts$Site, 3),
+  Percentage_1 = c(bombus_phorid_counts_for_collation, 
+                   bombus_crithidia_counts_for_collation, 
+                   bombus_apicystis_counts_for_collation),
+  Parasite = rep(c("Phorid", "Crithidia", "Apicystis"), each = nrow(bombus_phorid_counts))
+)
+
+# Create the violin plot with data points
+violin_plot_with_points_bombus <- ggplot(combined_percentages_for_plot, aes(x = Parasite, y = Percentage_1, fill = Parasite)) +
+  geom_violin(alpha = 0.7) +  # Slight transparency for the violin
+  geom_jitter(width = 0.2, size = 1.5, alpha = 0.6) +  # Adds jittered points
+  labs(title = "Bumblebees",
+       x = "Parasite",
+       y = "Prevalence") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Pastel1")
+
+# Display the plot
+violin_plot_with_points_bombus
+
+
+
+### Now the same but for honeybees 
+## for Phorid 
+# Filter for mellifera species, group by Site and Phorid, and count occurrences of 0s and 1s
+mellifera_phorid_counts <- combined_dataset_raw %>%
+  filter(Species == "mellifera") %>%
+  group_by(Site, Phorid) %>%
+  summarise(Count = n()) %>%
+  pivot_wider(names_from = Phorid, values_from = Count, values_fill = 0)  # Fill missing counts with 0
+
+# Rename columns for clarity (0s and 1s count)
+colnames(mellifera_phorid_counts)[2:3] <- c("Count_0", "Count_1")
+
+# Display the result
+mellifera_phorid_counts
+
+# Calculate the percentage of 1s in the Phorid column
+mellifera_phorid_counts <- mellifera_phorid_counts %>%
+  mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+# Display the updated data with percentage
+mellifera_phorid_counts
+
+
+## for Crithidia 
+# Filter for mellifera species, group by Site and Crithidia, and count occurrences of 0s and 1s
+mellifera_crithidia_counts <- combined_dataset_raw %>%
+  filter(Species == "mellifera") %>%
+  group_by(Site, Crithidia) %>%
+  summarise(Count = n()) %>%
+  pivot_wider(names_from = Crithidia, values_from = Count, values_fill = 0)  # Fill missing counts with 0
+
+# Rename columns for clarity (0s and 1s count)
+colnames(mellifera_crithidia_counts)[2:3] <- c("Count_0", "Count_1")
+
+# Display the result
+mellifera_crithidia_counts
+
+# Calculate the percentage of 1s in the Phorid column
+mellifera_crithidia_counts <- mellifera_crithidia_counts %>%
+  mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+# Display the updated data with percentage
+mellifera_crithidia_counts
+
+
+## For Apicystis 
+# Filter for mellifera species, group by Site and Apicystis, and count occurrences of 0s and 1s
+mellifera_Apicystis_counts <- combined_dataset_raw %>%
+  filter(Species == "mellifera") %>%
+  group_by(Site, Apicystis) %>%
+  summarise(Count = n()) %>%
+  pivot_wider(names_from = Apicystis, values_from = Count, values_fill = 0)  # Fill missing counts with 0
+
+# Rename columns for clarity (0s and 1s count)
+colnames(mellifera_Apicystis_counts)[2:3] <- c("Count_0", "Count_1")
+
+# Display the result
+mellifera_Apicystis_counts
+
+# Calculate the percentage of 1s in the Phorid column
+mellifera_Apicystis_counts <- mellifera_Apicystis_counts %>%
+  mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+# Display the updated data with percentage
+mellifera_Apicystis_counts
+
+mellifera_apicystis_counts_for_collation <- mellifera_Apicystis_counts$Percentage_1
+mellifera_crithidia_counts_for_collation <- mellifera_crithidia_counts$Percentage_1
+mellifera_phorid_counts_for_collation <- mellifera_phorid_counts$Percentage_1
+
+# Combine the data for each parasite type into a single data frame for plotting
+combined_percentages_for_plot_mellifera <- data.frame(
+  Site = rep(mellifera_phorid_counts$Site, 3),
+  Percentage_1 = c(mellifera_phorid_counts_for_collation, 
+                   mellifera_crithidia_counts_for_collation, 
+                   mellifera_apicystis_counts_for_collation),
+  Parasite = rep(c("Phorid", "Crithidia", "Apicystis"), each = nrow(mellifera_phorid_counts))
+)
+
+# Create the violin plot with data points
+violin_plot_with_points_mellifera <- ggplot(combined_percentages_for_plot_mellifera, aes(x = Parasite, y = Percentage_1, fill = Parasite)) +
+  geom_violin(alpha = 0.7) +  # Slight transparency for the violin
+  geom_jitter(width = 0.2, size = 1.5, alpha = 0.6) +  # Adds jittered points
+  labs(title = "Honeybees",
+       x = "parasite",
+       y = "") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Pastel1")
+
+# Display the plot
+violin_plot_with_points_mellifera
+
+
+# Combine the two plots side by side
+combined_plot <- violin_plot_with_points_mellifera + violin_plot_with_points_bombus +
+  plot_layout(nrow = 2) + # Arrange in two rows
+  plot_annotation(title = "Comparison of parasite prevalence for honeybees and bumblebees")
+
+# Display the combined plot
+combined_plot
+```
+
+
+
+```{r analysis viruses}
+
+# first we have to filter for NAs
+combined_dataset_na_filtered <- na.omit(combined_dataset_raw)
+
+
+## First for bombus 
+# List of columns to process
+virus_columns <- c("CBPV", "DWV_KV_VDV", "ABPV_KBV_IAPV", "BQCV", "SBPV", "SBV")
+
+# Initialize an empty list to store results
+result_list <- list()
+
+# Loop through each virus column to generate the table
+for (virus in virus_columns) {
+  # Filter for bombus species, group by Site and the virus column, and count occurrences of 0s and 1s
+  counts <- combined_dataset_raw %>%
+    filter(Species == "bombus") %>%
+    group_by(Site, !!sym(virus)) %>%
+    summarise(Count = n(), .groups = 'drop') %>%
+    pivot_wider(names_from = !!sym(virus), values_from = Count, values_fill = 0) # Fill missing counts with 0
+  
+  # Rename columns for clarity
+  colnames(counts)[2:3] <- c("Count_0", "Count_1")
+
+  # Calculate the percentage of 1s
+  counts <- counts %>%
+    mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+  # Store the results in the list
+  result_list[[virus]] <- counts
+}
+
+# Display results for each virus
+result_list
+
+# Initialize an empty data frame for combined data
+combined_percentage_data <- data.frame()
+
+# Loop through each virus column to combine the data
+for (virus in virus_columns) {
+  # Filter for bombus species, group by Site and the virus column, and count occurrences of 0s and 1s
+  counts <- combined_dataset_raw %>%
+    filter(Species == "bombus") %>%
+    group_by(Site, !!sym(virus)) %>%
+    summarise(Count = n(), .groups = 'drop') %>%
+    pivot_wider(names_from = !!sym(virus), values_from = Count, values_fill = 0) # Fill missing counts with 0
+  
+  # Rename columns for clarity
+  colnames(counts)[2:3] <- c("Count_0", "Count_1")
+
+  # Calculate the percentage of 1s
+  counts <- counts %>%
+    mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100) %>%
+    select(Site, Percentage_1) %>%
+    mutate(Virus = virus)  # Add a column to identify the virus
+  
+  # Combine the results into a single data frame
+  combined_percentage_data <- bind_rows(combined_percentage_data, counts)
+}
+
+# Create the violin plot with data points
+violin_plot <- ggplot(combined_percentage_data, aes(x = Virus, y = Percentage_1, fill = Virus)) +
+  geom_violin(alpha = 0.7) +  # Violin plot with slight transparency
+  geom_jitter(width = 0.2, size = 1.5, alpha = 0.6) +  # Jittered data points
+  labs(title = "Bumblebees",
+       x = "",
+       y = "Prevalence (%)") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Pastel1")
+
+# Display the plot
+violin_plot
+
+
+
+## Now for honeybees 
+# Initialize an empty list to store results
+result_list_2 <- list()
+
+# Loop through each virus column to generate the table
+for (virus in virus_columns) {
+  # Filter for bombus species, group by Site and the virus column, and count occurrences of 0s and 1s
+  counts <- combined_dataset_raw %>%
+    filter(Species == "mellifera") %>%
+    group_by(Site, !!sym(virus)) %>%
+    summarise(Count = n(), .groups = 'drop') %>%
+    pivot_wider(names_from = !!sym(virus), values_from = Count, values_fill = 0) # Fill missing counts with 0
+  
+  # Rename columns for clarity
+  colnames(counts)[2:3] <- c("Count_0", "Count_1")
+
+  # Calculate the percentage of 1s
+  counts <- counts %>%
+    mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100)
+
+  # Store the results in the list
+  result_list[[virus]] <- counts
+}
+
+# Display results for each virus
+result_list
+
+# Initialize an empty data frame for combined data
+combined_percentage_data <- data.frame()
+
+# Loop through each virus column to combine the data
+for (virus in virus_columns) {
+  # Filter for honeybee species, group by Site and the virus column, and count occurrences of 0s and 1s
+  counts <- combined_dataset_raw %>%
+    filter(Species == "mellifera") %>%
+    group_by(Site, !!sym(virus)) %>%
+    summarise(Count = n(), .groups = 'drop') %>%
+    pivot_wider(names_from = !!sym(virus), values_from = Count, values_fill = 0) # Fill missing counts with 0
+  
+  # Rename columns for clarity
+  colnames(counts)[2:3] <- c("Count_0", "Count_1")
+
+  # Calculate the percentage of 1s
+  counts <- counts %>%
+    mutate(Percentage_1 = (Count_1 / (Count_0 + Count_1)) * 100) %>%
+    select(Site, Percentage_1) %>%
+    mutate(Virus = virus)  # Add a column to identify the virus
+  
+  # Combine the results into a single data frame
+  combined_percentage_data <- bind_rows(combined_percentage_data, counts)
+}
+
+# Create the violin plot with data points
+violin_plot_2 <- ggplot(combined_percentage_data, aes(x = Virus, y = Percentage_1, fill = Virus)) +
+  geom_violin(alpha = 0.7) +  # Violin plot with slight transparency
+  geom_jitter(width = 0.2, size = 1.5, alpha = 0.6) +  # Jittered data points
+  labs(title = "Honeybee",
+       x = "Virus",
+       y = "Prevalence (%)") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Pastel1")
+
+print(violin_plot_2)
+
+
+## now we combine the two plots together 
+# Combine the two violin plots
+combined_violin_plot <- violin_plot + violin_plot_2 + 
+  plot_layout(nrow = 2) +  # Arrange in two rows
+  plot_annotation(title = "viral prevalence in honeybees and bumblebees")
+
+# Display the combined plot
+combined_violin_plot
+```
+
+
+Note that the below was added out of curiosity and does not constitute a thorough analysis of the normality of all of the groups. 
+
+```{r normality test}
+# Perform Shapiro-Wilk test
+shapiro_test_phorid_bombus <- shapiro.test(bombus_phorid_counts$Percentage_1)
+
+# Display the result
+shapiro_test_phorid_bombus
+
+shapiro_test_phorid_mellifera <- shapiro.test(mellifera_phorid_counts$Percentage_1)
+
+shapiro_test_phorid_mellifera
+
+```
+
